@@ -14,10 +14,14 @@ GameObject:
   - component: {fileID: 5257514738267506280}
   - component: {fileID: 1299824681142665713}
   - component: {fileID: 1337271300894290526}
+<<<<<<< HEAD
+  - component: {fileID: 6926188472911456078}
+=======
   - component: {fileID: 6819744150216945222}
   - component: {fileID: 6948751574709164611}
   - component: {fileID: 3232829536091139340}
   - component: {fileID: 2275990719234931382}
+>>>>>>> cb4357110c2a463986849a4b85fcebd672b1f157
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -135,6 +139,9 @@ MonoBehaviour:
   player: {fileID: 0}
   navMeshAgent: {fileID: 0}
   navMeshSurface: {fileID: 0}
+<<<<<<< HEAD
+--- !u!114 &6926188472911456078
+=======
 --- !u!54 &6819744150216945222
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -152,6 +159,7 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &6948751574709164611
+>>>>>>> cb4357110c2a463986849a4b85fcebd672b1f157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,6 +168,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5257514738267506283}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: efcd1fbcdda0ee245b054c95c09f2ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  catchDistance: 2
+  sceneToLoad: NavMesh Scene
+=======
   m_Script: {fileID: 11500000, guid: 66a34e31886c1134f9deb1673ce0b7ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -286,3 +302,4 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+>>>>>>> cb4357110c2a463986849a4b85fcebd672b1f157
