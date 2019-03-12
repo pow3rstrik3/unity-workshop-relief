@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,6 +23,8 @@ public class DoorAOpen : MonoBehaviour
         if (pickupController.silverKey && pickupController.goldKey)
         {
             GetComponent<Animator>().SetTrigger("DoorATrigger");
+            
+            SceneManager.LoadScene("Main Scene");
         }
         
     }

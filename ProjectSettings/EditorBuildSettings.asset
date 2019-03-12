@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NavMesh Scene.unity
     guid: e0b7b44bf8249d646937c7874f868e5f
+  - enabled: 1
+    path: Assets/Scenes/Key Scene.unity
+    guid: ab0bbca8df7868142ac250db80f29f62
+  - enabled: 1
+    path: Assets/Scenes/Main Scene.unity
+    guid: 98efd6c00e93d684188d51a552ef60fb
   m_configObjects: {}
