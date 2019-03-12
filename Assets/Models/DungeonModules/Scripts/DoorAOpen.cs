@@ -22,10 +22,16 @@ public class DoorAOpen : MonoBehaviour
         pickupController = other.GetComponent<PickupController>();
         if (pickupController.silverKey && pickupController.goldKey)
         {
-            GetComponent<Animator>().SetTrigger("DoorATrigger");
+            StartCoroutine(OpenDoor());
             
-            SceneManager.LoadScene("Main Scene");
         }
         
+    }
+
+    IEnumerator OpenDoor()
+    {
+        GetComponent<Animator>().SetTrigger("DoorATrigger");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Main Scene");
     }
 }
