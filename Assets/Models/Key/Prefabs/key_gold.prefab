@@ -86,9 +86,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462124}
+  - component: {fileID: 7125794653781226167}
   m_Layer: 0
   m_Name: key_gold
-  m_TagString: Untagged
+  m_TagString: GoldKey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,11 +101,25 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170560}
-  m_LocalRotation: {x: 0, y: -0.56557554, z: 0, w: 0.82469654}
+  m_LocalRotation: {x: 0, y: -0.5655789, z: 0, w: 0.82469416}
   m_LocalPosition: {x: 3.93, y: 0.27977, z: 74.72}
-  m_LocalScale: {x: 1.8018788, y: 1.8018793, z: 1.8018793}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 431008}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -68.885, z: 0}
+--- !u!136 &7125794653781226167
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 2.3054278
+  m_Height: 7.1417484
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.0708742, z: 0}
