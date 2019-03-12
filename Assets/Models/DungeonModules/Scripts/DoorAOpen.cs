@@ -32,6 +32,6 @@ public class DoorAOpen : MonoBehaviour
     {
         GetComponent<Animator>().SetTrigger("DoorATrigger");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Main Scene");
+        SceneManager.LoadScene("End Scene");
     }
 }
