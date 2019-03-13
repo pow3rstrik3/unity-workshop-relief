@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.05
@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 1184581061178478657, guid: 9df7df81ac6c7044aab365407c2bea3b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 1184581061178478657, guid: 9df7df81ac6c7044aab365407c2bea3b,
         type: 3}
@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 1516680845}
   - component: {fileID: 1516680844}
   - component: {fileID: 1516680843}
+  - component: {fileID: 1516680847}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -886,6 +887,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1516680847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516680836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcd1fbcdda0ee245b054c95c09f2ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1879475307}
+  catchDistance: 1
+  sceneToLoad: Final Scene
 --- !u!1001 &1547800133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1038,7 +1054,7 @@ PrefabInstance:
     - target: {fileID: 4707693266022179593, guid: 8529413cbe48d9346a5a1b4ed2a16063,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 4707693266022179593, guid: 8529413cbe48d9346a5a1b4ed2a16063,
         type: 3}
